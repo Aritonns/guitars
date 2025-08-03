@@ -1,0 +1,35 @@
+{
+    "name": "Guitar",
+    "type": "object",
+    "properties": {
+      "brand": {
+        "type": "string",
+        "description": "Guitar brand name"
+      },
+      "model": {
+        "type": "string",
+        "description": "Guitar model name"
+      },
+      "type": {
+        "type": "string",
+        "description": "Type of guitar (electric, acoustic, etc.)"
+      },
+      "specifications": {
+        "type": "object",
+        "description": "Guitar specifications"
+      },
+      "musicians": {
+        "type": "array",
+        "description": "Musicians who use this guitar"
+      },
+      "image_url": {
+        "type": "string",
+        "description": "Guitar image URL"
+      },
+      "price": {
+        "type": "number",
+        "description": "Guitar price"
+      }
+    },
+    "required": []
+  }
